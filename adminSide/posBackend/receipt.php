@@ -23,7 +23,7 @@ $pdf->AddPage();
 $pdf->SetFont('Arial', 'B', 16);
 
 // Header
-$pdf->Cell(0, 10, "Johnny's Restaurant", 0, 1, 'C');
+$pdf->Cell(0, 10, "Shree Gajanana Juice center", 0, 1, 'C');
 $pdf->SetFont('Arial', '', 12);
 $pdf->Cell(0, 10, 'Receipt ID: ' . $bill_data['bill_id'], 0, 1, 'L');
 $pdf->Cell(0, 10, 'Date: ' . $bill_data['bill_time'], 0, 1, 'L');
@@ -81,9 +81,9 @@ while ($item_row = mysqli_fetch_assoc($items_result)) {
     $cart_total += $total;
 
     $pdf->Cell(70, 10, $item_name, 1);
-    $pdf->Cell(40, 10, 'RM ' . number_format($item_price,2), 1);
+    $pdf->Cell(40, 10, 'RS ' . number_format($item_price,2), 1);
     $pdf->Cell(40, 10, $quantity, 1);
-    $pdf->Cell(40, 10, 'RM ' . number_format($total,2), 1);
+    $pdf->Cell(40, 10, 'RS ' . number_format($total,2), 1);
     $pdf->Ln();
 }
 

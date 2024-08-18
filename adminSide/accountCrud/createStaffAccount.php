@@ -20,7 +20,7 @@ $input_password = $password_err = $password = "";
 </head>
 
 <div class="wrapper">
-    <h1>Johnny's Dining & Bar</h1>
+    <h1>Shree Gajanana Juice Center</h1>
     <h3>Create New Account</h3>
     <p>Please fill in Account Information Properly</p>
 
@@ -36,7 +36,7 @@ $input_password = $password_err = $password = "";
         
         <div class="form-group">
             <label for="email" class="form-label">Email :</label>
-            <input type="text" name="email" placeholder="johnny12@dining.bar.com" class="form-control <?php echo !$emailErr ?: 'is-invalid'; ?>" id="email" required value="<?php echo $email; ?>"><br>
+            <input type="text" name="email" placeholder="Shree Gajanana Juice center@dining.bar.com" class="form-control <?php echo !$emailErr ?: 'is-invalid'; ?>" id="email" required value="<?php echo $email; ?>"><br>
             <div id="validationServerFeedback" class="invalid-feedback">
                 Please provide a valid email.
             </div>
@@ -60,7 +60,7 @@ $input_password = $password_err = $password = "";
 
         <div class="form-group">
             <label for="password">Password :</label>
-            <input type="password" name="password" placeholder="johnny1234@" id="password" required class="form-control <?php echo !$password_err ?: 'is-invalid' ; ?>" value="<?php echo $password; ?>"><br>
+            <input type="password" name="password" placeholder="Shree Gajanana Juice Center " id="password" required class="form-control <?php echo !$password_err ?: 'is-invalid' ; ?>" value="<?php echo $password; ?>"><br>
             <div id="validationServerFeedback" class="invalid-feedback">
                 Please provide a valid password.
             </div>

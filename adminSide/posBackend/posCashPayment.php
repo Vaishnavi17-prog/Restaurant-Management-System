@@ -52,7 +52,7 @@ $reservation_id = $_GET['reservation_id'];
                     echo '<tr>';
                     echo '<td>' . $item_id . '</td>';
                     echo '<td>' . $item_name . '</td>';
-                    echo '<td>RM ' . $item_price . '</td>';
+                    echo '<td> ' . $item_price . '</td>';
                     echo '<td>' . $quantity . '</td>';
                     echo '<td>RM ' . number_format($total,2) . '</td>';
                     echo '</tr>';
